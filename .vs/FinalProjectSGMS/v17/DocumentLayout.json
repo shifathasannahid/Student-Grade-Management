@@ -1,0 +1,153 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "I:\\FinalProjectSGMS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0D4EE212-633B-482B-9798-0C56A4493910}|FinalProjectSGMS\\FinalProjectSGMS.csproj|i:\\finalprojectsgms\\finalprojectsgms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D4EE212-633B-482B-9798-0C56A4493910}|FinalProjectSGMS\\FinalProjectSGMS.csproj|solutionrelative:finalprojectsgms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D4EE212-633B-482B-9798-0C56A4493910}|FinalProjectSGMS\\FinalProjectSGMS.csproj|i:\\finalprojectsgms\\finalprojectsgms\\trainingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D4EE212-633B-482B-9798-0C56A4493910}|FinalProjectSGMS\\FinalProjectSGMS.csproj|solutionrelative:finalprojectsgms\\trainingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D4EE212-633B-482B-9798-0C56A4493910}|FinalProjectSGMS\\FinalProjectSGMS.csproj|i:\\finalprojectsgms\\finalprojectsgms\\schoolclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D4EE212-633B-482B-9798-0C56A4493910}|FinalProjectSGMS\\FinalProjectSGMS.csproj|solutionrelative:finalprojectsgms\\schoolclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D4EE212-633B-482B-9798-0C56A4493910}|FinalProjectSGMS\\FinalProjectSGMS.csproj|i:\\finalprojectsgms\\finalprojectsgms\\subjectclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D4EE212-633B-482B-9798-0C56A4493910}|FinalProjectSGMS\\FinalProjectSGMS.csproj|solutionrelative:finalprojectsgms\\subjectclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D4EE212-633B-482B-9798-0C56A4493910}|FinalProjectSGMS\\FinalProjectSGMS.csproj|i:\\finalprojectsgms\\finalprojectsgms\\grade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D4EE212-633B-482B-9798-0C56A4493910}|FinalProjectSGMS\\FinalProjectSGMS.csproj|solutionrelative:finalprojectsgms\\grade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D4EE212-633B-482B-9798-0C56A4493910}|FinalProjectSGMS\\FinalProjectSGMS.csproj|i:\\finalprojectsgms\\finalprojectsgms\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D4EE212-633B-482B-9798-0C56A4493910}|FinalProjectSGMS\\FinalProjectSGMS.csproj|solutionrelative:finalprojectsgms\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D4EE212-633B-482B-9798-0C56A4493910}|FinalProjectSGMS\\FinalProjectSGMS.csproj|i:\\finalprojectsgms\\finalprojectsgms\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D4EE212-633B-482B-9798-0C56A4493910}|FinalProjectSGMS\\FinalProjectSGMS.csproj|solutionrelative:finalprojectsgms\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D4EE212-633B-482B-9798-0C56A4493910}|FinalProjectSGMS\\FinalProjectSGMS.csproj|i:\\finalprojectsgms\\finalprojectsgms\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D4EE212-633B-482B-9798-0C56A4493910}|FinalProjectSGMS\\FinalProjectSGMS.csproj|solutionrelative:finalprojectsgms\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "I:\\FinalProjectSGMS\\FinalProjectSGMS\\Teacher.cs",
+              "RelativeDocumentMoniker": "FinalProjectSGMS\\Teacher.cs",
+              "ToolTip": "I:\\FinalProjectSGMS\\FinalProjectSGMS\\Teacher.cs",
+              "RelativeToolTip": "FinalProjectSGMS\\Teacher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T04:20:18.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "I:\\FinalProjectSGMS\\FinalProjectSGMS\\Program.cs",
+              "RelativeDocumentMoniker": "FinalProjectSGMS\\Program.cs",
+              "ToolTip": "I:\\FinalProjectSGMS\\FinalProjectSGMS\\Program.cs",
+              "RelativeToolTip": "FinalProjectSGMS\\Program.cs",
+              "ViewState": "AgIAAK4AAAAAZmZmZmYkwCgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T12:29:28.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SubjectClass.cs",
+              "DocumentMoniker": "I:\\FinalProjectSGMS\\FinalProjectSGMS\\SubjectClass.cs",
+              "RelativeDocumentMoniker": "FinalProjectSGMS\\SubjectClass.cs",
+              "ToolTip": "I:\\FinalProjectSGMS\\FinalProjectSGMS\\SubjectClass.cs",
+              "RelativeToolTip": "FinalProjectSGMS\\SubjectClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T09:02:45.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Grade.cs",
+              "DocumentMoniker": "I:\\FinalProjectSGMS\\FinalProjectSGMS\\Grade.cs",
+              "RelativeDocumentMoniker": "FinalProjectSGMS\\Grade.cs",
+              "ToolTip": "I:\\FinalProjectSGMS\\FinalProjectSGMS\\Grade.cs",
+              "RelativeToolTip": "FinalProjectSGMS\\Grade.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T09:08:14.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Student.cs",
+              "DocumentMoniker": "I:\\FinalProjectSGMS\\FinalProjectSGMS\\Student.cs",
+              "RelativeDocumentMoniker": "FinalProjectSGMS\\Student.cs",
+              "ToolTip": "I:\\FinalProjectSGMS\\FinalProjectSGMS\\Student.cs",
+              "RelativeToolTip": "FinalProjectSGMS\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T09:04:19.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SchoolClass.cs",
+              "DocumentMoniker": "I:\\FinalProjectSGMS\\FinalProjectSGMS\\SchoolClass.cs",
+              "RelativeDocumentMoniker": "FinalProjectSGMS\\SchoolClass.cs",
+              "ToolTip": "I:\\FinalProjectSGMS\\FinalProjectSGMS\\SchoolClass.cs",
+              "RelativeToolTip": "FinalProjectSGMS\\SchoolClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T09:01:41.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TrainingDbContext.cs",
+              "DocumentMoniker": "I:\\FinalProjectSGMS\\FinalProjectSGMS\\TrainingDbContext.cs",
+              "RelativeDocumentMoniker": "FinalProjectSGMS\\TrainingDbContext.cs",
+              "ToolTip": "I:\\FinalProjectSGMS\\FinalProjectSGMS\\TrainingDbContext.cs",
+              "RelativeToolTip": "FinalProjectSGMS\\TrainingDbContext.cs",
+              "ViewState": "AgIAABUAAACwmZmZmZknwDIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T12:33:22.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Users.cs",
+              "DocumentMoniker": "I:\\FinalProjectSGMS\\FinalProjectSGMS\\Users.cs",
+              "RelativeDocumentMoniker": "FinalProjectSGMS\\Users.cs",
+              "ToolTip": "I:\\FinalProjectSGMS\\FinalProjectSGMS\\Users.cs",
+              "RelativeToolTip": "FinalProjectSGMS\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T12:33:49.074Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
