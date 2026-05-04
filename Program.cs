@@ -26,7 +26,7 @@ using (dbContext)
     {
         AdminMenu(dbContext);
     }
-    else
+    else if(loggedInUser.Username.StartsWith("teacher"))
     {
         TeacherMenu(dbContext);
     }
@@ -93,19 +93,116 @@ static void AdminMenu(TrainingDbContext dbContext)
                 Username = tu,
                 Password = tp
             });
-            
+
+            dbContext.Users.Add(new Users
+            {
+                Id = Guid.NewGuid(),
+                Username = tu,
+                Password = tp
+            });
+
+
+
             break;
 
         case 4:
             Console.WriteLine("Following classes are present in the system:");
             dbContext.Classes.ToList()
                 .ForEach(c => Console.WriteLine(c.ClassName));
+            Console.WriteLine("What you want to do");
+            Console.WriteLine("1) Edit class");
+            Console.WriteLine("2) Delete class");
+            Console.WriteLine("3) Assign subject");
+           
+            Console.Write("Your choice: ");
+            int choice2 = int.Parse(Console.ReadLine());
+
+            //Edit class
+            if (choice2 == 1)
+            {
+                Console.WriteLine("Provide information to edit class:");
+                var cls2 = GetClassByName(dbContext);
+                Console.Write("New class name: ");
+                cls2.ClassName = Console.ReadLine();
+                dbContext.Classes.Update(cls2);
+
+            }
+
+            //Delete class
+            else if (choice2 == 2)
+            {
+                
+                var cls2 = GetClassByName(dbContext);
+                Console.WriteLine("Provide information to delete a class:");
+                dbContext.Classes.Remove(cls2);
+            }
+
+            //Assign subject
+            else if (choice2 == 3)
+            {
+                var cls2 = GetClassByName(dbContext);
+                Console.WriteLine("Provide information to assign a subject to class:");
+                Console.Write("Subject name: ");
+                string subjectName2 = Console.ReadLine();
+                dbContext.Subjects.Add(new SubjectClass
+                {
+                    SubjectName = subjectName2,
+                    ClassId = cls2.Id
+                });
+            }
+
             break;
 
         case 5:
             Console.WriteLine("Following subjects are present in the system:");
             dbContext.Subjects.ToList()
                 .ForEach(s => Console.WriteLine(s.SubjectName));
+            Console.WriteLine("What you want to do");
+            Console.WriteLine("1) Edit subject");
+            Console.WriteLine("2) Delete subject");
+            Console.WriteLine("3) Assign a teacher");
+
+            Console.Write("Your choice: ");
+            int choice3 = int.Parse(Console.ReadLine());
+
+            //Edit subject
+            if (choice3 == 1)
+            {
+                Console.WriteLine("Provide following information to edit subject:");
+                Console.Write("Current subject name: ");
+                string currentSubjectName = Console.ReadLine();
+                var subject = dbContext.Subjects.First(s => s.SubjectName == currentSubjectName);
+                Console.Write("New subject name: ");
+                subject.SubjectName = Console.ReadLine();
+                dbContext.Subjects.Update(subject);
+            }
+
+            //Delete subject
+            else if (choice3 == 2)
+            {
+                Console.WriteLine("Provide following information to delete subject:");
+                Console.Write("Subject name: ");
+                string subjectName2 = Console.ReadLine();
+                var subject = dbContext.Subjects.First(s => s.SubjectName == subjectName2);
+                dbContext.Subjects.Remove(subject);
+            }
+
+            //Assign a teacher
+            else if (choice3 == 3)
+            {
+                Console.WriteLine("Provide following information to assign a teacher:");
+                Console.Write("Class name: ");
+                string className = Console.ReadLine();
+                var selectedClass = dbContext.Classes.First(c => c.ClassName == className);
+                Console.Write("Subject name: ");
+                string subjectName2 = Console.ReadLine();
+                var subject = dbContext.Subjects.First(s => s.SubjectName == subjectName2);
+                Console.Write("Teacher name: ");
+                string teacherName = Console.ReadLine();
+                subject.TeacherName = teacherName;
+                dbContext.Subjects.Update(subject);
+            }
+
             break;
 
         case 6:
@@ -121,11 +218,13 @@ static void AdminMenu(TrainingDbContext dbContext)
 // ===== Helper =====
 static SchoolClass GetClassByName(TrainingDbContext dbContext)
 {
-    Console.Write("Class name: ");
+    Console.Write("Current Class name: ");
     string name = Console.ReadLine();
     return dbContext.Classes.First(c => c.ClassName == name);
     
 }
+
+
 
 // ================= TEACHER =================
 static void TeacherMenu(TrainingDbContext dbContext)

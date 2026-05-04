@@ -8,10 +8,16 @@ namespace FinalProjectSGMS
 {
     public class SubjectClass
     {
+      
+
         public int Id { get; set; }
         public string SubjectName { get; set; }
         
         public int ClassId { get; set; }
+
+        public string TeacherName { get; set; }
+
+
 
     }
 }

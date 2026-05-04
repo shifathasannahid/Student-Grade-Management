@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "I:\\FinalProjectSGMS\\FinalProjectSGMS\\FinalProjectSGMS.csproj": {}
+    "I:\\Student-Grade-Management\\FinalProjectSGMS.csproj": {}
   },
   "projects": {
-    "I:\\FinalProjectSGMS\\FinalProjectSGMS\\FinalProjectSGMS.csproj": {
+    "I:\\Student-Grade-Management\\FinalProjectSGMS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\FinalProjectSGMS\\FinalProjectSGMS\\FinalProjectSGMS.csproj",
+        "projectUniqueName": "I:\\Student-Grade-Management\\FinalProjectSGMS.csproj",
         "projectName": "FinalProjectSGMS",
-        "projectPath": "I:\\FinalProjectSGMS\\FinalProjectSGMS\\FinalProjectSGMS.csproj",
+        "projectPath": "I:\\Student-Grade-Management\\FinalProjectSGMS.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "I:\\FinalProjectSGMS\\FinalProjectSGMS\\obj\\",
+        "outputPath": "I:\\Student-Grade-Management\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
